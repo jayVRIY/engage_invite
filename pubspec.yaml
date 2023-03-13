@@ -40,6 +40,7 @@ dependencies:
   url_launcher: any
   webview_flutter: any
   google_fonts: ^4.0.3
+  just_audio: ^0.9.31
 
 dev_dependencies:
   flutter_test:
@@ -80,10 +81,6 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: GenJyuuGothic
-      fonts:
-        - asset: assets/fonts/GenJyuuGothic-Medium-2.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
