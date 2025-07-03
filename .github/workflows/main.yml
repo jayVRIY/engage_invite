@@ -23,7 +23,7 @@ jobs:
       run: flutter pub get
 
     - name: Build Flutter Web
-      run: flutter build web
+      run: flutter build web --base-href="/engage_invite"
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
